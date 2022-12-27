@@ -23,6 +23,7 @@ public class Sending_Keys_WithoutSendKeyMethod {
 		JavascriptExecutor js=(JavascriptExecutor)driver;
 		WebElement sendUS = driver.findElement(By.id("email"));
 		js.executeScript("arguments[0].value='dk@gmail.com'", sendUS);
+		System.out.println("SendKeys Sent Successfully");
 	}
 
 }
